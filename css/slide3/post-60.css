@@ -1,0 +1,129 @@
+.elementor-60 .elementor-element.elementor-element-b66515c {
+    margin-top: -80px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.elementor-60 .elementor-element.elementor-element-5de727e {
+    padding: 135px 0px 140px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-c5e6848 {
+    padding: 0px 0px 140px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-1b2a944:not(.elementor-motion-effects-element-type-background), .elementor-60 .elementor-element.elementor-element-1b2a944 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F9FAF1;
+}
+
+.elementor-60 .elementor-element.elementor-element-1b2a944 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 140px 0px 70px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-1b2a944 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-60 .elementor-element.elementor-element-80a0583:not(.elementor-motion-effects-element-type-background), .elementor-60 .elementor-element.elementor-element-80a0583 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F9FAF1;
+}
+
+.elementor-60 .elementor-element.elementor-element-80a0583 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 140px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-80a0583 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-60 .elementor-element.elementor-element-bc2e691 {
+    padding: 140px 0px 100px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-74213cf {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 140px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-74213cf > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-60 .elementor-element.elementor-element-a27507f {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-2330489 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 140px 0px 140px 0px;
+}
+
+.elementor-60 .elementor-element.elementor-element-2330489 > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+@media(max-width: 1500px) {
+    .elementor-60 .elementor-element.elementor-element-5de727e {
+        padding:115px 0px 120px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-c5e6848 {
+        padding: 0px 0px 120px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-1b2a944 {
+        padding: 120px 0px 50px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-80a0583 {
+        padding: 0px 0px 120px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-bc2e691 {
+        padding: 120px 0px 80px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-74213cf {
+        padding: 0px 0px 120px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-a27507f {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-2330489 {
+        padding: 120px 0px 120px 0px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .elementor-60 .elementor-element.elementor-element-5de727e {
+        padding:100px 0px 100px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-c5e6848 {
+        padding: 0px 0px 100px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-1b2a944 {
+        padding: 100px 0px 30px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-80a0583 {
+        padding: 0px 0px 100px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-bc2e691 {
+        padding: 100px 0px 60px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-74213cf {
+        padding: 0px 0px 100px 0px;
+    }
+
+    .elementor-60 .elementor-element.elementor-element-2330489 {
+        padding: 100px 0px 100px 0px;
+    }
+}

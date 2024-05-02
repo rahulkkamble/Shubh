@@ -1,0 +1,206 @@
+/* Custom css */
+*,
+html,
+body{
+    box-sizing: border-box;
+}
+
+:root{
+    --my-primary-color: #5d6d20;
+    --my-secondary-color: #a38459;
+}
+
+.my-secondary-color{
+    color: var(--my-secondary-color) !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-absolute {
+    z-index: 10000;
+}
+
+/* Carousel */
+.mycarousel-class .carousel-inner {
+    height: 100vh;
+}
+
+.mycarousel-class .carousel-inner img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* carousel text */
+.overlay-text{
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-text h2,
+.overlay-text h1{
+    font-size: 110px;
+    text-align: center;
+}
+
+/* Animated Background Lines */
+@keyframes run {
+    0%{
+        top: -50%;
+    }
+    100%{
+        top: 110%;
+    }
+}
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    margin: 0 auto;
+    width: 1170px;
+    z-index: 6;
+}
+.lines .line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    margin: 0;
+}
+.lines .line:nth-child(1) {
+    left: 0%;
+}
+.lines .line:nth-child(2) {
+    left: 389px;
+}
+.lines .line:nth-child(3) {
+    right: 389px;
+}
+.lines .line:nth-child(4) {
+    right: 0;
+}
+.lines .line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+    -webkit-animation: run 7s 0s infinite;
+    animation: run 7s 0s infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.lines .line::after {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.lines .line:nth-child(2)::after {
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+}
+.lines .line:nth-child(3)::after {
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+}
+.lines .line:nth-child(4)::after {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+.bg-transparent{
+    background-color: transparent !important;
+}
+.counter-item .count-text{
+    background-color: transparent;
+    color: black;
+}
+.counter-item .count-text:after {
+    color: var(--my-secondary-color);
+}
+
+/* swiper animation */
+.slide-to-left{
+    animation-name: slide-to-left;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2000ms;
+}
+
+@keyframes slide-to-left{
+    0%{
+        transform: translate3d(0px, 0, 0);
+    }
+    70%{
+        transform: translate3d(-120px, 0, 0);
+    }
+    100%{
+        transform: translate3d(0px, 0, 0);
+    }
+} 
+/* swiper animation end */
+
+/* overflow-on-footer */
+.overflow-on-footer{
+    height: 200px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.bg--secondary{
+    background-color: var(--my-secondary-color);
+}
+
+@media screen and (max-width:768px) {
+    .lines .line:nth-child(1) {
+        left: 20vw;
+    }
+    .lines .line:nth-child(2) {
+        left: 40vw;
+    }
+    .lines .line:nth-child(3) {
+        left: 60vw;
+    }
+    .lines .line:nth-child(4) {
+        left: 80vw;
+    }
+    .overflow-on-footer {
+        height: 300px;
+    }
+    .overflow-on-footer .top-50{
+        top: 30% !important;
+    }
+    .testim .dots{
+        margin-left: 0px;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:440px){
+    .overflow-on-footer {
+        height: 300px;
+    }
+    .overflow-on-footer .top-50{
+        position:static !important;
+    }
+    .overflow-on-footer .top-50 .w-75{
+        width: 100% !important; 
+    }
+}
